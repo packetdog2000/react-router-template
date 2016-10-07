@@ -1,0 +1,51 @@
+{
+  "name": "react-template",
+  "version": "0.1.0",
+  "description": "This is a react template with webpack babel bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/packetdog2000/react-template.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "Webpack",
+    "Babel",
+    "Bootstrap"
+  ],
+  "author": "Edwin Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/packetdog2000/react-template/issues"
+  },
+  "homepage": "https://github.com/packetdog2000/react-template#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.25.0",
+    "d3": "^3.5.17",
+    "exports-loader": "^0.6.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "imports-loader": "^0.6.5",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "rd3": "^0.7.2",
+    "react": "^15.3.2",
+    "react-bootstrap": "^0.30.5",
+    "react-bootstrap-table": "^2.5.5",
+    "react-dom": "^15.3.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
