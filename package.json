@@ -2,7 +2,7 @@
   "name": "react-template",
   "version": "0.1.0",
   "description": "This is a react template with webpack babel bootstrap",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "webpack-dev-server"
   },
@@ -37,6 +37,7 @@
     "react-bootstrap": "^0.30.5",
     "react-bootstrap-table": "^2.5.5",
     "react-dom": "^15.3.2",
+    "react-router": "^2.0.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7"
   },

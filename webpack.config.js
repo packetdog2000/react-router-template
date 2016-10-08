@@ -1,11 +1,11 @@
 module.exports = {
     context: __dirname+'/src',
     entry: [
-      './index.js'
+      './main.js'
     ],
     output: {
-      path: __dirname,
-      publicPath: '/',
+      path: __dirname+'/src',
+      contentBase: '/src',
       filename: 'bundle.js'
     },
     module: {
